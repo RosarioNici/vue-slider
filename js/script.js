@@ -34,17 +34,22 @@ const root = new Vue({
     },
     methods: {
         moveImg() {
+
             if (this.index < 4) {
                 this.index++
+
             } else {
                 this.index = 0
             }
         },
         invetMoveImg() {
+
             if (this.index > 0) {
                 this.index--
+
             } else {
                 this.index = 4
+
             }
         }
 
